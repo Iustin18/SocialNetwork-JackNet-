@@ -1,0 +1,32 @@
+.root{
+    -fx-background-image: url("https://i.pinimg.com/originals/9b/b4/c9/9bb4c9a93670e449798b5ee35634893d.jpg");
+    -fx-background-size: auto;
+}
+
+.button{
+    -fx-background-color:  #E72178,
+    linear-gradient(#FCEDFF, #E48CFF),
+    linear-gradient(#FCEDFF 0%, #F7D1FF 49%, #EDA3FF 50%, #E48CFF 100%);
+    -fx-background-insets: 1,2,3;
+    -fx-background-radius: 5,5,5;
+    -fx-text-fill: #3F3B40;
+    -fx-font-weight: bold;
+    -fx-font-family: "Copperplate Gothic Bold";
+}
+
+.label{
+    -fx-font-family: "Copperplate Gothic Bold";
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-background-color: #F7D1FF;
+    -fx-background-radius: 5,4,3;
+}
+
+.combo-box{
+    -fx-background-color: #F7D1FF;
+    -fx-background-radius: 5,5,5;
+    -fx-text-fill: #3F3B40;
+    -fx-font-family: "Copperplate Gothic Bold";
+}

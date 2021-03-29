@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.microsoft.sqlserver:mssql-jdbc:6.1.0.jre8'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
+
+    compile 'com.itextpdf:itext7-core:7.0.2'
+}
+
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls' , 'javafx.fxml']
+}
+mainClassName = 'MainFX'

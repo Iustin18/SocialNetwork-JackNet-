@@ -1,0 +1,93 @@
+.root{
+    -fx-background-color: black;
+    -fx-background-size: auto;
+}
+
+.button{
+    -fx-background-color:  #00FF08,
+    linear-gradient(#C9FFC7, #33FF41),
+    linear-gradient(#C9FFC7 0%, #B0FFAD 49%, #75FF70 50%, #33FF41 100%);
+    -fx-background-insets: 1,2,3;
+    -fx-background-radius: 5,5,5;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Copperplate Gothic Bold";
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-image: url("http://getwallpapers.com/wallpaper/full/a/c/5/364965.jpg");
+}
+
+.label{
+    -fx-font-family: "Copperplate Gothic Bold";
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: #75FF70;
+}
+
+.list-view:even {
+    -fx-background-color: #75FF70;
+}
+
+.list-view:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.combo-box{
+    -fx-background-color:  #00FF08,
+    linear-gradient(#C9FFC7, #33FF41),
+    linear-gradient(#C9FFC7 0%, #B0FFAD 49%, #75FF70 50%, #33FF41 100%);
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Copperplate Gothic Bold";
+}
+
+.tab{
+    -fx-background-color:  #00FF08,
+    linear-gradient(#C9FFC7, #33FF41),
+    linear-gradient(#C9FFC7 0%, #B0FFAD 49%, #75FF70 50%, #33FF41 100%);
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Copperplate Gothic Bold";
+}
+
+.tab-pane
+{
+    -fx-tab-min-height: 2em;
+    -fx-tab-max-height: 2em;
+}
+.tab .tab-label
+{
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+
+.tab-content-area
+{
+    -fx-background-image: url("http://getwallpapers.com/wallpaper/full/a/c/5/364965.jpg");
+    -fx-padding: 0.0em;
+}
+.tab
+{
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+    -fx-padding: 0.083333em 0.5em 0.083333em 0.5em;
+}
+.tab-pane:top *.tab-header-area
+{
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: black;
+}
+.split-pane:vertical > .split-pane-divider {
+    -fx-background-color: black;
+}
